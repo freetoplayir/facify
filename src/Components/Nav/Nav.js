@@ -1,17 +1,12 @@
 import React from 'react';
 import './Nav.css';
 
-function Nav() {
+const Nav = () => {
   return (
-    <div className='App'>
-      <Nav />
-      {/* 
-      <Logo/>
-      <ImageLink/>
-      <FaceRecognition/>
-    */}
-    </div>
+    <nav className='Nav'>
+      <h3>sign out</h3>
+    </nav>
   );
-}
+};
 
 export default Nav;
