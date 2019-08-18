@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
+import Nav from './Components/Nav/Nav';
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
-      <h1>Hello World</h1>
+      <Nav />
       {/* 
-      <Nav/>
       <Logo/>
       <ImageLink/>
       <FaceRecognition/>
     */}
     </div>
   );
-}
+};
 
 export default App;
