@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './Nav.css';
 
-function App() {
+function Nav() {
   return (
     <div className='App'>
       <Nav />
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default Nav;
